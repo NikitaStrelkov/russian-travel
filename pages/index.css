@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Inter-Regular';
+    font-style:  normal;
+    font-weight: 400;
+    src: url("../fonts/Inter Web/Inter-Regular.woff");"
+}
+@font-face {
+    font-family: 'Inter-Bold';
+    font-style:  normal;
+    font-weight: 700;
+    src: url("../fonts/Inter Web/Inter-Bold.woff");
+}
+
+
+
+@import url(../vendor/normalize.css);
+
+.page {
+    width: 1280px;
+    height: 6875px;
+    background-color: #2a2c2f;
+    margin: 0 auto;
+    font-family:  Inter-Regular, Inter-Bold, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    width: 1184px;
+    height: 52px;
+    left: 48px;
+    top: 28px;
+    margin: 0;
+}
+.header__logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 176px;
+    max-height: 52px;
+}
+.header__link {
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 28px;
+    color: white;
+    margin: 0;
+}
+.header__lang-link_ru {
+    top: 18px;
+    right: 47px;
+    bottom: 6px;
+    left: 1107px;
+}
+.header__lang-link_en {
+    top: 18px;
+    right: 0;
+    bottom: 6px;
+    left: 1155px;
+}
+.lead {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    align-content: center;
+    min-height: 1005px;
+    min-width: 984px;
+    margin-top: 136px;
+}
+.lead__title {
+    display: block;
+    flex-wrap: wrap;
+    text-align: center;
+    font-weight: 900;
+    margin: 0;
+    font-size: 96px;
+    line-height: 100px;
+    max-width: 720px;
+    margin: 0 auto 0;
+    color: white;
+}
+.lead__subtitle {
+    position: relative;
+    margin: 32px auto 0;
+    max-width: 640px;
+    text-align: center;
+    color:white;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    font-style: normal;
+}
+.lead__image {
+    position: relative;
+    margin: 64px auto 0;
+    max-width: 984xp;
+    max-height: 615px;
+}
+.lead__image_route {
+    position: absolute;
+    margin: 0 auto;
+}
+.lead__caption {
+    margin: 0;
+    color: white;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+    
+}
