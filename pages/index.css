@@ -1,26 +1,26 @@
 @font-face {
-    font-family: 'Inter-Regular';
-    font-style:  normal;
+    font-family: 'Inter';
     font-weight: 400;
-    src: url("../fonts/Inter Web/Inter-Regular.woff");"
+    src: url("../fonts/Inter-Regular.woff");"
 }
 @font-face {
-    font-family: 'Inter-Bold';
-    font-style:  normal;
-    font-weight: 700;
-    src: url("../fonts/Inter Web/Inter-Bold.woff");
+    font-family: 'Inter';
+    font-weight: 900;
+    src: url("../fonts/Inter-Bold.woff");
 }
-
-
 
 @import url(../vendor/normalize.css);
 
+.body {
+    height: 100%;
+    
+}
 .page {
     max-width: 1280px;
-    min-height: 6875px;
+    min-width: 320px;
     background-color: #2a2c2f;
     margin: 0 auto;
-    font-family:  Inter-Regular, Inter-Bold, Arial, sans-serif;
+    font-family:  Inter;
     -webkit-font-smoothing: antialiased;
 }
 .header {
@@ -28,8 +28,8 @@
     flex-direction: row;
     justify-content: space-between;
     position: relative;
-    width: 1184px;
-    height: 52px;
+    min-width: 1184px;
+    min-height: 52px;
     left: 48px;
     top: 28px;
     margin: 0;
@@ -44,10 +44,13 @@
 .header__link {
     display: block;
     position: absolute;
-    width: 30px;
-    height: 28px;
     color: white;
     margin: 0;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.header__link:hover {
+    text-decoration: underline;
 }
 .header__lang-link_ru {
     top: 18px;
@@ -61,6 +64,7 @@
     bottom: 6px;
     left: 1155px;
 }
+
 .lead {
     display: flex;
     flex-direction: column;
@@ -76,9 +80,8 @@
     flex-wrap: wrap;
     text-align: center;
     position: relative;
-    font-weight: 900;
-    margin: 0;
-    font-size: 96px;
+    margin: 0 auto;
+    font-size: 6rem;
     line-height: 100px;
     max-width: 720px;
     margin: 0 auto 0;
@@ -87,13 +90,12 @@
 .lead__subtitle {
     position: relative;
     margin: 32px auto 0;
-    max-width: 640px;
+    min-width: 640px;
     text-align: center;
     color:white;
-    font-size: 30px;
+    font-size: 1.85rem;
     line-height: 36px;
-    font-weight: 400;
-    font-style: normal;
+    font-weight: normal;
 }
 .lead__image {
     position: relative;
@@ -101,14 +103,38 @@
     max-width: 984xp;
     max-height: 615px;
 }
-.lead__image_route {
-    position: absolute;
-    margin: 0 auto;
-}
 .lead__caption {
     margin: 0;
     color: white;
-    font-size: 14px;
-    line-height: 14px;
-    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 14px;  
+}
+.intro {
+    max-width: 690px;
+    max-height: 429px;
+    position: relative;
+    right: 148px;
+    display: flex;
+    flex-direction: column;
+    margin: 92px auto;
+    color: white;
+}
+.intro__title {
+    font-size: 3.375rem;
+    line-height: 58px;
+    font-weight: 900;
+    margin: 0 0 40px;
+    
+    padding: 0;
+}
+.intro__text {
+    font-size: 1rem;
+    margin: 0 auto 33px;
+    padding: 0;
+}
+.intro__list {
+    
+    font-size: 0.75rem;
+    margin: 0;
+    padding: 0;
 }
