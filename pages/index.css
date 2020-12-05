@@ -17,7 +17,9 @@
     src: url("../fonts/Inter-Bold.woff");
 }
 
-
+h1, h2, h3, p, a {
+    margin: 0;
+}
 
 .body {
     
@@ -62,8 +64,8 @@
     min-width: 640px;
     text-align: center;
     color:white;
-    font-size: 1.85rem;
-    line-height: 36px;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
     font-weight: normal;
 }
 .lead__image {
@@ -103,18 +105,21 @@
 }
 .intro__text {
     font-size: 1rem;
+    line-height: 1.625rem;
     margin: 0 auto 33px;
     padding: 0;
 }
 .intro__list {
     
     font-size: 0.75rem;
+    line-height: 1.125rem;
     margin: 0;
     padding: 0;
 }
 .photo-grid {
     height: 100%;
-    max-height: 671px;
+    min-height: 671px;
+    
     width: 100%;
     max-width: 1184px;
     position: relative;
@@ -130,11 +135,178 @@
     max-width: 100%;
     max-height: 100%;
 }
+.places {
+    position: relative;
+    width: 77%;
+    padding: 0;
+    margin: 92px auto;
+}
 .place {
-    display: flex;
-    justify-content: space-between;
-    width: 76%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 152px 460px;
+    column-gap: 40px;
+    row-gap: 48px;
+    width: 100%;
     max-width: 984px;
     height: 100%;
     max-height: 584px;
+    margin-bottom: 160px;
+}
+.place__title {
+    max-width: 460px;
+    max-height: 152px;
+    font-weight: 900;
+    font-size: 4.5rem;
+    line-height: 4,75rem;
+    font-weight: 900;
+    justify-content: left;
+    align-self: end;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 0;
+    color: white;
+}
+.place__image {
+    grid-column: 1/2;
+    grid-row: 2/-1;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    margin: 0;
+}
+.place__website {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: end;
+    color: white;
+    
+}
+.place__paragraph {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    color: white;
+    font-size: 1.125rem;
+    line-height: 1.8125rem;
+}
+.place__paragraph_1 {
+    margin: 0 auto 26px;
+}
+.place__paragraph_ {
+    margin: 0 auto;
+}
+.place__link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+}
+.place__link:hover {
+    text-decoration: underline;
+}
+.place__url-heading {
+    color: #aaaaaa;
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+    font-weight: normal;
+}
+.cover {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1184px;
+    min-height: 740px;
+    height: 100%;
+    background-image: url(../sprint-3-images/cover-trains.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #2a2c2f;
+    
+    box-sizing: border-box;
+    margin: 92px auto 0;
+    align-items: center;
+    justify-content: center;
+    padding: 27% auto 27%;
+    position: relative;
+}
+.cover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #2a2c2f;
+    opacity: .3;
+}
+.cover:hover::before {
+    opacity: 0.6;
+}
+.cover__title {
+    font-size: 4.5rem;
+    line-height: 4.75rem;
+    color: white;
+    max-width: 560px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+} .cover__subtitle {
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    margin: 4% auto 0;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.footer {
+    height: 100vh;
+    max-height: 18px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-top: 92px;
+}
+.footer__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 92%;
+    min-height: 18px;
+    left: 48px;
+    bottom: 24px;
+    margin:auto;
+    color: white;
+}
+.footer__link {
+    position: absolute;
+    bottom: 24px;
+    left: 1.875%;
+    margin: 0;
+    list-style: none;
+    
+}
+
+.footer__link_li {
+    display: inline;
+    margin: 0;
+}
+.footer__links {
+    font-weight: 1rem;
+    line-height: 1.125rem;
+    text-decoration: none;
+    color: white;
+}
+.footer__link_li:nth-child(2n) {
+    margin: 18px;
+}
+.footer__links:hover {
+    text-decoration: underline;
+}
+.footer__copyright {
+    font-weight: 0.875rem;
+    line-height: 1rem;
+    position: absolute;
+    right: 48px;
+    bottom: 24px;
+    margin: 0;
 }
