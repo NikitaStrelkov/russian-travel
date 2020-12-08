@@ -195,7 +195,7 @@ h1, h2, h3, p, a {
 .place__paragraph_1 {
     margin: 0 auto 26px;
 }
-.place__paragraph_ {
+.place__paragraph_2 {
     margin: 0 auto;
 }
 .place__link {
@@ -514,5 +514,187 @@ h1, h2, h3, p, a {
     }
 }
 @media screen and (max-width:320px) {
+    .lead {
+        min-height: 406px;
+        min-width: 320px;
+        width: 100%;
+        margin: 48px auto 0;
+    }
+    .lead__title {
+        font-size: 2.5rem;
+        line-height: 2.75rem;
+        max-width: 288px;
+    }
+    .lead__subtitle {
+        margin: 16px auto 0;
+        font-size: 1rem;
+        line-height: 1.25rem;
+    }
+    .lead__image {
+        margin: 40px auto 0;
+        width: 100%;
+        max-width: 320px;
+        height: 100%;
+        max-height: 200px;
+    }
+    .lead__caption {
+        margin-top: 8px;
+        font-size: 0.625rem;
+        line-height: 0.875rem;  
+        margin-left: 5%;
+    }
+}
+@media screen and (max-width:320px) {
+    .intro {
+        width: 90%;
+        max-width: 288px;
+        max-height: 754px;
+        margin: 64px auto;
+        margin-left: 5%;
+    }
+    .intro__title {
+        font-size: 2rem;
+        line-height: 2.1874rem;
+    }
+    .intro__text {
+        font-size: 1rem;
+        line-height: 1.625rem;
+        margin: 0 auto 34px;
+    }
+}
+@media screen and (max-width:320px) {
+    .photo-grid {
+        height: 100%;
+        min-height: 2724px;
+        width: 90%;
+        max-width: 288px;
+        grid-template-columns: repeat(auto-fit, minmax(264px, 1fr));
+        gap: 12px;
+    }
+    .photo-grid__item {
+        max-width: 288px;
+        min-height: 216px;
+    }
+}
+@media screen and (max-width:320px) {
+    .places {
+        width: 100%;
+        max-width: 320px;
+        margin: 64px auto;
+    }
+    .place {
+        grid-template-columns: 1fr;
+        grid-template-rows:  1fr 1fr 1fr;
+        row-gap: 32px;
+        width: 100%;
+        min-width: 320px;
+        height: 100%;
+        max-height: 964px;
+        margin-bottom: 50px;
+    }
+    .place__title {
+        max-width: 288px;
+        margin: 0 auto;
+        margin-left: 5%;
+        max-height: 35px;
+        font-size: 2rem;
+        line-height: 2.1875rem;
+        justify-content: left;
+        align-self: end;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .place__image {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        width: 100%;
+        max-width: 320px;
+        min-height: 320px;
+        object-fit: cover;
+        margin: 0;
+    }
+    .place__website {
+     display: none;
+    }
+    .place__paragraph {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        color: white;
+        font-size: 1rem;
+        line-height: 1.625rem;
+        margin: 0 5%;
+    }
+    .place__paragraph_1 {
+        margin: 0 auto 25px;
+    }
+    .place__paragraph_2 {
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:320px) {
+    .cover {
+        width: 100%;
+        max-width: 320px;
+        min-height: 200px;
+        margin: 66px auto 0;
+    }
+    .cover__title {
+        font-size: 2rem;
+        line-height: 2.1875rem;
+        color: white;
+        min-width: 288px;
+    }
+    .cover__subtitle {
+        font-size: 0.875rem;
+        line-height: 1rem;
+        margin: 8% auto 0;
+    }
+}
+@media screen and (max-width:320px) {
+    .footer {
+        height: 100%;
+        min-height: 310px;
+        display: flex;
+        position: relative;
+        align-items: center;
+        margin-top: 64px;
+    }
+    .footer__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 58.125%;
+        max-height: 310px;
+        margin: 0 auto;
+        color: white;
+    }
+    .footer__link {
+        position: relative;
+        top: 0px;
+        right: 1.875%;
+        margin: 0 auto;
+    }
     
+    .footer__link_li {
+        display: list-item;
+    }
+    .footer__links {
+        font-weight: 1.5rem;
+        line-height: 1.5rem;
+        text-decoration: none;
+        color: white;
+    }
+    .footer__link_li:nth-child(2n) {
+        margin-top: 10.32%;
+        margin-bottom: 10.32%;
+       margin-left: 0;
+    }
+    .footer__copyright {
+        font-weight: 0.875rem;
+        line-height: 1rem;
+        position: absolute;
+        left: 16px;
+        bottom: 24px;
+        margin: 0;
+    }
 }
