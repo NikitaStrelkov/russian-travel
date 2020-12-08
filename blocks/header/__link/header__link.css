@@ -3,3 +3,9 @@
   top: 46px;
   right: 48px;
 }
+@media screen and (max-width:320px) {
+  .header__link {
+    top: 35px;
+    right: 16px;
+  } 
+}

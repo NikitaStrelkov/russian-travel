@@ -8,3 +8,10 @@
   top: 28px;
   margin:auto;
 }
+@media screen and (max-width:320px) {
+  .header__container {
+    width: 90%;
+    left: 16px;
+    top: 16px;
+  }
+}

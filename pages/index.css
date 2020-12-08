@@ -86,6 +86,7 @@ h1, h2, h3, p, a {
     font-size: 0.9rem;
     line-height: 0.875rem;  
     align-self: flex-end;
+    text-transform: uppercase;
 }
 .intro {
     position: relative;
@@ -209,8 +210,9 @@ h1, h2, h3, p, a {
 .place__url-heading {
     color: #aaaaaa;
     font-size: 0.75rem;
-    line-height: 0.75rem;
+    line-height: 1.25rem;
     font-weight: normal;
+    margin-bottom: 12px;
 }
 .cover {
     display: flex;
@@ -402,31 +404,44 @@ h1, h2, h3, p, a {
 }
 @media screen and (max-width:768px) {
     .places {
-        width: 93%;
-        width: 720px;
+        width: 93.75%;
+        max-width: 720px;
+        padding: 0;
+        margin: 88px auto;
     }
-    .place {
+    .place { 
+        margin-bottom: 72px;
         column-gap: 28px;
         row-gap: 48px;
-        max-width: 720px;
-        min-height: 434px;
-        margin-bottom: 144px;
+        width: 100%;
+        min-width: 720px;
+        height: 100%;
+        min-height: 484px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr minmax(min-content, max-content);
     }
     .place__title {
         font-size: 2.625rem;
         line-height: 2.875rem;
     }
     .place__image {
-        width: 100%;
-        height: 340px;
-        object-fit: cover;
-        
+        height: 50%;
+        max-width: 340px;
+        min-height: 340px;
+    }
+
     }
     .place__paragraph {
         font-size: 1rem;
+        line-height: 1.625rem;
     }
     .place__paragraph_1 {
         margin: 0 auto 25px;
+    }
+    .place__url-heading {
+        font-size: 0.75rem;
+        line-height: 0.75rem;
+    }
 }
 @media screen and (max-width:768px) {
     .photo-grid {
@@ -441,4 +456,63 @@ h1, h2, h3, p, a {
         max-width: 352px;
         max-height: 264px;
     }
+}
+@media screen and (max-width:768px) {
+    .photo-grid {
+        height: 100%;
+        min-height: 1664px;
+        width: 93.75%;
+        max-width: 720px;
+        gap: 16px;
+    }
+    .photo-grid__item {
+        max-width: 352px;
+        min-height: 264px;
+    }
+}
+@media screen and (max-width:768px) {
+    .intro {
+        width: 93.75%;
+        max-width: 720px;
+        max-height: 429px;
+        margin: 0 auto 88px; 
+    }
+}
+@media screen and (max-width:768px) {
+    .lead {
+        min-height: 862px;
+        min-width: 768px;
+        width: 100%;
+        margin: 48px auto 88px;
+    }
+    .lead__image {
+        margin: 56px auto 0;
+        width: 100%;
+        max-width: 768px;
+        height: 100%;
+        max-height: 480px;
+    }
+    .lead__caption {
+        margin-left: 3.125%;
+    }
+}
+@media screen and (max-width:768px) {
+    .footer {
+        height: 100vh;
+        width: 100%;
+        margin-top: 88px;
+    }
+    .footer__container {
+        width: 100%;
+        left: 24px;
+    }
+    .footer__link {
+        left: 0;
+    }
+    .footer__copyright {
+        right: 24px;
+    }
+}
+@media screen and (max-width:320px) {
+    
 }
