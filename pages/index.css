@@ -653,41 +653,40 @@ h1, h2, h3, p, a {
 @media screen and (max-width:320px) {
     .footer {
         height: 100%;
+        width: calc(100% - 16px);
+        max-height: 310px;
         min-height: 310px;
-        display: flex;
-        position: relative;
-        align-items: center;
         margin-top: 64px;
     }
     .footer__container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
         width: 58.125%;
-        max-height: 310px;
+        height: 100%;
         margin: 0 auto;
         color: white;
+        min-width: 186px;
+        min-height: 310px;
+        padding: 0;
+        left: 0;
     }
     .footer__link {
-        position: relative;
+        position: absolute;
         top: 0px;
+        left: 0px;
         right: 1.875%;
-        margin: 0 auto;
+        margin: 0;
+        margin-left: auto;
     }
-    
     .footer__link_li {
         display: list-item;
     }
     .footer__links {
         font-weight: 1.5rem;
         line-height: 1.5rem;
-        text-decoration: none;
-        color: white;
     }
     .footer__link_li:nth-child(2n) {
         margin-top: 10.32%;
         margin-bottom: 10.32%;
-       margin-left: 0;
+        margin-left: 0;
     }
     .footer__copyright {
         font-weight: 0.875rem;
