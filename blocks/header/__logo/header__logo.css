@@ -1,4 +1,4 @@
-.header__logo {
+/*.header__logo {
   position: absolute;
   top: 28px;
   left: 48px;
@@ -9,6 +9,16 @@
   .header__logo {
     top: 16px;
     left: 16px;
+    max-width: 142px;
+    max-height: 42px;
+  }
+}*/
+.header__logo {
+
+}
+
+@media screen and (max-width: 640px){
+  .header__logo {
     max-width: 142px;
     max-height: 42px;
   }
