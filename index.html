@@ -9,28 +9,36 @@
 </head>
 <body class="page">
     <div class="page__container">
-        <header class="header page">
-            <div class="header__container">
-                <img class="header__logo" src="sprint-3-images/header-logo.svg" alt="лого">
-                <div class="header__link">
+        <header class="header section page__header">
+            <div class="logo header__logo">
+                <img class="logo_image" src="sprint-3-images/header-logo.svg" alt="лого">
+            </div>    
+                <!--<div class="header__link">
                     <a href="#" class="header__lang-link_ru">Ru</a>
                     <a href="#" class="header__lang-link_en">En</a>
-                </div>    
-            </div>
+                </div>-->
+            <ul class="header__lang-list">
+                <li>
+                  <a class="header__lang-link header__lang-link_active">Ru</a>
+                    </li>
+                    <li>
+                      <a class="header__lang-link ">En</a>
+                    </li>
+                  </ul>    
             </header>
         <main class="content">
-            <section class="lead">
+            <section class="lead section">
                 <h1 class="lead__title">Путешествия по России</h1>
                 <p class="lead__subtitle">Настоящая страна не в выпусках<br>новостей, а здесь.</p>
                 <img class="lead__image" src="sprint-3-images/lead image.png" alt="полка">                
                 <p class="lead__caption">ваша полка — верхняя</p>
             </section>
-            <section class="intro">
+            <section class="intro section">
                 <h2 class="intro__title">Чего мы там не видели?</h2>
                 <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
                 <p class="intro__list">Часовых поясов 11<br>Объектов природного наследия ЮНЕСКО 12<br>Объектов культурного наследия ЮНЕСКО 16<br>Природных заповедников 105<br>Аэропортов 241</p>
             </section>
-            <section class="photo-grid">
+            <section class="photo-grid section">
                 <img class="photo-grid__item" src="sprint-3-images/photo-grid-train.jpg">
                 <img class="photo-grid__item" src="sprint-3-images/photo-grid-atharva-tulsi.jpg">
                 <img class="photo-grid__item" src="sprint-3-images/photo-grid-tuman.jpg">
@@ -44,7 +52,7 @@
                 <img class="photo-grid__item" src="sprint-3-images/photo-grid-baikal-2.jpg">
                 <img class="photo-grid__item" src="sprint-3-images/photo-grid-ergaki.jpg">
             </section>
-            <section class="places">
+            <section class="places section">
                 <article class="place">
                     <h2 class="place__title">Куршская коса</h2>
                     <img class="place__image" src="sprint-3-images/place-kolsky.jpg">
@@ -113,7 +121,7 @@
                     </div>   
                 </article>
             </section>
-            <section class="cover">
+            <section class="cover section">
                 <h2 class="cover__title">
                     <a class="cover__title_link" href="1. До Байкала на собаках:
                     https://stampsy.com/na-elektrichkakh-do-baikala" target="blank">До Байкала<br>«на собаках»</a>
@@ -121,7 +129,7 @@
                 <p class="cover__subtitle">По мотивам учебной темы о Транссибе<br>— путешествие от столицы до Байкала<br>на электричках.</p>
             </section>
         </main>
-        <footer class="footer">
+        <footer class="footer section">
             <div class="footer__container">
                 <ul class="footer__link">
                     <li class="footer__link_li">

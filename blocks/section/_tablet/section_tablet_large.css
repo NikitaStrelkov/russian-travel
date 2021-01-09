@@ -1,0 +1,5 @@
+@media screen and (max-width: 768px) {
+    .section_tablet_large {
+        max-width: 100%;
+    }
+}

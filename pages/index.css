@@ -1,43 +1,22 @@
 @import url(../vendor/normalize.css);
+@import url(../fonts/fonts.css);
+
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__container/header__container.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__link/header__link.css);
-@import url(../blocks/header/__lang-link_ru/header__lang-link_ru.css);
-@import url(../blocks/header/__lang-link_en/header__lang-link_en.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
+@import url(../blocks/header/__lang-list/header__lang-list.css);
+@import url(../blocks/section/section.css);
+@import url(../blocks/logo/__image/logo__image.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__header/page__header.css);
+@import url(../blocks/page/__container/page__container.css);
 
-@font-face {
-    font-family: 'Inter';
-    font-weight: 400;
-    src: url("../fonts/Inter-Regular.woff");"
-}
-@font-face {
-    font-family: 'Inter';
-    font-weight: 900;
-    src: url("../fonts/Inter-Bold.woff");
-}
 
 h1, h2, h3, p, a {
     margin: 0;
-}
-
-.body {
-    
-    
-}
-.page {
-   /* max-width: 1280px;
-    min-width: 320px;
-    background-color: #2a2c2f;
-    margin: auto;
-    font-family:  Inter;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-size-adjust: 100%;
-    text-rendering: optimizeLegibility; */
-    background-color: #2A2C2F;
-  color: #ffffff;
-  font-weight: 400;
-  margin: 0;
 }
 
 .lead {
