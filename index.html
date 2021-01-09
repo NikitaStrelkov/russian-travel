@@ -1,14 +1,15 @@
-<!DOCTYPE html>
-<html lang="ru" xml:lang="en">
+<!doctype html>
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
-    <link rel="stylesheet" href="pages/index.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Путешествие по России</title>
+  <link rel="stylesheet" href="pages/index.css">
 </head>
-<body>
-    <div class="page">
-        <header class="header">
+<body class="page">
+    <div class="page__container">
+        <header class="header page">
             <div class="header__container">
                 <img class="header__logo" src="sprint-3-images/header-logo.svg" alt="лого">
                 <div class="header__link">
@@ -46,19 +47,19 @@
             <section class="places">
                 <article class="place">
                     <h2 class="place__title">Куршская коса</h2>
-                    <img class="place__image" src="sprint-3-images/place-kosa.jpg">
+                    <img class="place__image" src="sprint-3-images/place-kolsky.jpg">
                     <div class="place__website">
                         <p class="place__url-heading">URL</p>
                         <a class="place__link" href="https://park-kosa.ru" target="blank">park-kosa.ru</a> 
                     </div>
-                    <div class="place__paragraph">
+                    <div class="place__paragraph"
                         <p class="place__paragraph_1">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на краю российского анклава.</p>
                         <p class="place__paragraph_2">На этом Калининградская область не заканчивается. Для путешественника и исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.</p>
                     </div>   
                 </article>
                 <article class="place">
                     <h2 class="place__title">Кольский</h2>
-                    <img class="place__image" src="sprint-3-images/place-kolsky.jpg">
+                    <img class="place__image" src="sprint-3-images/place-kosa.jpg">
                     <div class="place__website">
                         <p class="place__url-heading">URL</p>
                         <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="blank">National Geographic</a> 
@@ -72,10 +73,11 @@
                 </article>
                 <article class="place">
                     <h2 class="place__title">Алтай</h2>
-                    <img class="place__image" src="sprint-3-images/place-altai.jpg">
+                    <img class="place__image" src="sprint-3-images/place-kosa.jpg">
                     <div class="place__website">
                         <p class="place__url-heading">URL</p>
-                        <a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="blank">Facebook</a> 
+                        <a class="place__link" href="3. Алтай:
+                        https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="blank">Facebook</a> 
                     </div>
                     <div class="place__paragraph">
                         <p class="place__paragraph_1">Алтай — одно из красивейших мест в России. 
@@ -85,7 +87,7 @@
                 </article>
                 <article class="place">
                     <h2 class="place__title">Зимний Байкал</h2>
-                    <img class="place__image" src="sprint-3-images/place-winter-baikal.jpg">
+                    <img class="place__image" src="sprint-3-images/place-kosa.jpg">
                     <div class="place__website">
                         <p class="place__url-heading">URL</p>
                         <a class="place__link" href="https://vk.com/baikalmile" target="blank">https://vk.com/baikalmile</a> 
@@ -99,7 +101,7 @@
                 </article>
                 <article class="place">
                     <h2 class="place__title">Карелия</h2>
-                    <img class="place__image" src="sprint-3-images/place-karelia.jpg">
+                    <img class="place__image" src="sprint-3-images/place-kosa.jpg">
                     <div class="place__website">
                         <p class="place__url-heading">URL</p>
                         <a class="place__link" href="https://vodlozero.ru/" target="blank">https://vodlozero.ru/</a> 
@@ -113,7 +115,8 @@
             </section>
             <section class="cover">
                 <h2 class="cover__title">
-                    <a class="cover__title_link" href="https://stampsy.com/na-elektrichkakh-do-baikala">До Байкала<br>«на собаках»</a>
+                    <a class="cover__title_link" href="1. До Байкала на собаках:
+                    https://stampsy.com/na-elektrichkakh-do-baikala" target="blank">До Байкала<br>«на собаках»</a>
                 </h2>
                 <p class="cover__subtitle">По мотивам учебной темы о Транссибе<br>— путешествие от столицы до Байкала<br>на электричках.</p>
             </section>
@@ -122,19 +125,19 @@
             <div class="footer__container">
                 <ul class="footer__link">
                     <li class="footer__link_li">
-                        <a class="footer__links" href="https://yandex.ru/maps" target="blank">Карты</a>
+                        <a class="footer__links" href="#" target="blank">Карты</a>
                     </li>
                     <li class="footer__link_li">
-                        <a class="footer__links" href="https://yandex.ru/pogoda" target="blank">Погода</a>
+                        <a class="footer__links" href="#" target="blank">Погода</a>
                     </li>
                     <li class="footer__link_li">
-                        <a class="footer__links" href="https://rasp.yandex.ru" target="blank">Расписание</a>
+                        <a class="footer__links" href="#" target="blank">Расписание</a>
                     </li>
                     <li class="footer__link_li">
-                        <a class="footer__links" href="https://calendar.yandex.ru" target="blank">Календарь</a>
+                        <a class="footer__links" href="#" target="blank">Календарь</a>
                     </li>
                     <li class="footer__link_li">
-                        <a class="footer__links" href="https://travel.yandex.ru" target="blank">Путешествия</a>
+                        <a class="footer__links" href="#" target="blank">Путешествия</a>
                     </li>
                 </ul>
                 <div class="footer__copyright">

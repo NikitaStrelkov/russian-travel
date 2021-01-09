@@ -26,14 +26,18 @@ h1, h2, h3, p, a {
     
 }
 .page {
-    max-width: 1280px;
+   /* max-width: 1280px;
     min-width: 320px;
     background-color: #2a2c2f;
     margin: auto;
     font-family:  Inter;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
-    text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility; */
+    background-color: #2A2C2F;
+  color: #ffffff;
+  font-weight: 400;
+  margin: 0;
 }
 
 .lead {
