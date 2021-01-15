@@ -309,6 +309,7 @@ h1, h2, h3, p, a {
         min-height: 1005px;
         width: calc(100% - 4.6%);
         margin: 78px auto 0;
+        max-width: 100%;
     }
     
     .lead__subtitle {
