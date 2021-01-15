@@ -371,19 +371,20 @@ h1, h2, h3, p, a {
     }
 }
 @media screen and (max-width:1024px) {
-    .cover { 
+    .cover {
         width: 100%;
         max-width: 1024px;
         min-height: 640px;
     }
 }
 @media screen and (max-width:768px) {
-    .cover { 
+    .cover {
         width: 100%;
         max-width: 768px;
         min-height: 480px;
     }
 }
+
 @media screen and (max-width:768px) {
     .places {
         width: 93.75%;
@@ -391,7 +392,7 @@ h1, h2, h3, p, a {
         padding: 0;
         margin: 88px auto;
     }
-    .place { 
+    .place {
         margin-bottom: 72px;
         column-gap: 28px;
         row-gap: 48px;
@@ -422,6 +423,7 @@ h1, h2, h3, p, a {
         font-size: 0.75rem;
         line-height: 0.75rem;
     }
+}
 
 @media screen and (max-width:768px) {
     .photo-grid {
