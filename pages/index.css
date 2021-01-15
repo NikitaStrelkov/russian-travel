@@ -29,6 +29,15 @@
 @import url(../blocks/place/__paragraph__2/place__paragraph__2.css);
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__title_link/cover__title_link.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/
+@import url(../blocks/
+@import url(../blocks/
+@import url(../blocks/
+@import url(../blocks/
 @import url(../blocks/logo/__image/logo__image.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/page/page.css);
@@ -42,62 +51,10 @@ h1, h2, h3, p, a {
 
 
 
-.cover {
-    display: flex;
-    flex-direction: column;
-    width: calc(92.5% - 48px);
-    max-width: 1184px;
-    min-height: 740px;
-    height: 100%;
-    background-image: url(../sprint-3-images/cover-trains.jpg);
-    background-size: cover;
-    background-position: center;
-    background-color: #2a2c2f;
-    
-    box-sizing: border-box;
-    margin: 92px auto 0;
-    align-items: center;
-    justify-content: center;
-    padding: 27% auto 27%;
-    position: relative;
-}
-.cover::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    background-color: #2a2c2f;
-    opacity: .3;
-}
-.cover:hover::before {
-    opacity: 0.6;
-}
-.cover__title {
-    font-size: 4.5rem;
-    line-height: 4.75rem;
-    color: white;
-    max-width: 560px;
-    text-align: center;
-    margin: 0 auto;
-    position: relative;
-}
-.cover__title_link {
-    text-decoration: none;
-    color: white;
-}
-.cover__title_link:hover {
-    text-decoration: underline;
-}
-.cover__subtitle {
-    font-size: 1.125rem;
-    line-height: 1.375rem;
-    margin: 4% auto 0;
-    text-align: center;
-    color: white;
-    position: relative;
-}
+
+
+
+
 .footer {
     height: 100vh;
     max-height: 18px;
@@ -151,27 +108,7 @@ h1, h2, h3, p, a {
 }
 
 
-@media screen and (max-width:1024px) {
-    .cover {
-        width: 100%;
-        max-width: 1024px;
-        min-height: 640px;
-    }
-}
-@media screen and (max-width:768px) {
-    .cover {
-        width: 100%;
-        max-width: 768px;
-        min-height: 480px;
-    }
-}
 
-@media screen and (max-width:768px) {
-    .place__url-heading {
-        font-size: 0.75rem;
-        line-height: 0.75rem;
-    }
-}
 
 @media screen and (max-width:768px) {
     .footer {
@@ -192,25 +129,7 @@ h1, h2, h3, p, a {
 }
 
 
-@media screen and (max-width:320px) {
-    .cover {
-        width: 100%;
-        max-width: 320px;
-        min-height: 200px;
-        margin: 66px auto 0;
-    }
-    .cover__title {
-        font-size: 2rem;
-        line-height: 2.1875rem;
-        color: white;
-        min-width: 288px;
-    }
-    .cover__subtitle {
-        font-size: 0.875rem;
-        line-height: 1rem;
-        margin: 8% auto 0;
-    }
-}
+
 @media screen and (max-width:320px) {
     .footer {
         height: 100%;

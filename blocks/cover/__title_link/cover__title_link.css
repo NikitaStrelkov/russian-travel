@@ -1,0 +1,7 @@
+.cover__title_link {
+    text-decoration: none;
+    color: white;
+}
+.cover__title_link:hover {
+    text-decoration: underline;
+}
