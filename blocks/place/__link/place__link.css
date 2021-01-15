@@ -1,0 +1,9 @@
+.place__link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+}
+.place__link:hover {
+    text-decoration: underline;
+}
