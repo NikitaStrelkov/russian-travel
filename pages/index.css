@@ -425,7 +425,7 @@ h1, h2, h3, p, a {
         font-size: 0.75rem;
         line-height: 0.75rem;
     }
-}
+
 @media screen and (max-width:768px) {
     .photo-grid {
         height: 100%;
