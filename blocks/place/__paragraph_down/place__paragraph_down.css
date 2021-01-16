@@ -1,8 +1,8 @@
-.place__paragraph__2 {
+.place__paragraph_down {
     margin: 0 auto;
 }
 @media screen and (max-width:320px) {
-    .place__paragraph_2 {
+    .place__paragraph_down {
         margin: 0 auto;
     }
 }

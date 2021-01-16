@@ -1,0 +1,22 @@
+.footer__link {
+    position: absolute;
+    bottom: 24px;
+    left: 1.875%;
+    margin: 0;
+    list-style: none;
+}
+@media screen and (max-width:768px) {
+    .footer__link {
+        left: 0;
+    }
+}
+@media screen and (max-width:320px) {
+    .footer__link {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 1.875%;
+        margin: 0;
+        margin-left: auto;
+    }
+}
