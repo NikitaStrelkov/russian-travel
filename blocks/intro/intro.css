@@ -1,12 +1,13 @@
 .intro {
+    font-family: 'Inter';
     position: relative;
     display: flex;
     flex-direction: column;
     width: 63%;
     max-width: 690px;
     max-height: 429px;
-    margin: 92px auto;
-    margin-left: 11.5%;
+    margin: 0 auto;
+    margin-left: 8.72%;
     color: white;
 }
 @media screen and (max-width:1024px) {
