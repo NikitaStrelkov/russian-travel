@@ -1,20 +1,18 @@
 .cover {
+    font-family: 'Inter';
     display: flex;
     flex-direction: column;
-    width: calc(92.5% - 48px);
-    max-width: 1184px;
+    width: 100%;
     min-height: 740px;
     height: 100%;
     background-image: url(../../sprint-3-images/cover-trains.jpg);
     background-size: cover;
     background-position: center;
     background-color: #2a2c2f;
-    
     box-sizing: border-box;
     margin:0 auto;
     align-items: center;
     justify-content: center;
-    padding: 27% auto 27%;
     position: relative;
 }
 .cover::before {
