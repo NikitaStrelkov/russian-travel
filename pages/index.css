@@ -10,6 +10,10 @@
 @import url(../blocks/content/content.css);
 @import url(../blocks/content/__section/content__section.css);
 @import url(../blocks/section/section.css);
+@import url(../blocks/section/_type/section_type_narrow.css);
+@import url(../blocks/section/_tablet/section_tablet_large.css);
+@import url(../blocks/section/_tablet/section_tablet_small.css);
+@import url(../blocks/section/_mobile/section_mobile_large.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
