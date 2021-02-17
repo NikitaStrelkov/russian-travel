@@ -1,9 +1,8 @@
 .intro {
     font-family: 'Inter';
-    position: relative;
     display: flex;
     flex-direction: column;
-    width: 63%;
+    width: 100%;
     max-width: 690px;
     max-height: 429px;
     margin: 0 auto;
@@ -12,26 +11,24 @@
 }
 @media screen and (max-width:1024px) {
     .intro {
-        width: 67.4%;
         max-width: 690px;
         max-height: 429px;
-        margin-left: 4.6%;
+        margin-left: 48px;
     }
 }
 @media screen and (max-width:768px) {
     .intro {
-        width: 93.75%;
+        
         max-width: 720px;
         max-height: 429px;
-        margin: 0 auto; 
+        margin-left: 24px;
     }
 }
 @media screen and (max-width:320px) {
     .intro {
-        width: 90%;
+        
         max-width: 288px;
         max-height: 754px;
-        margin: 64px auto;
-        margin-left: 5%;
+        margin-left: 16px;
     }
 }    
