@@ -44,7 +44,7 @@
         min-width: 320px;
         height: 100%;
         max-height: 964px;
-        margin-bottom: 50px;
+        margin-bottom: 0;
     }
     .place:last-of-type {
         margin-bottom: 0px;

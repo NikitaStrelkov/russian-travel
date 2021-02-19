@@ -9,15 +9,15 @@
     .place__image {
         height: 100%;
         max-width: 440px;
-        min-height: 440px;
+        max-height: 440px;
     }
 }
 @media screen and (max-width:768px) {
     
     .place__image {
-        height: 50%;
-        max-width: 340px;
-        min-height: 340px;
+        width: 100%;
+        min-width: 340px;
+        max-height: 340px;
     }
 }
 @media screen and (max-width:320px) {

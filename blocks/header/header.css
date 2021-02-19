@@ -7,4 +7,25 @@
   flex-shrink: 0;
   margin: 0;
   padding: 0;
+  width: 100%;
+  margin: 0 auto;
 }
+@media screen and (max-width: 1300px){
+  .header {
+    padding: 0 48px;
+  }
+}
+
+@media screen and (max-width: 984px){
+  .header {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 640px){
+  .header {
+    padding: 0 16px;
+  }
+}
+
+
