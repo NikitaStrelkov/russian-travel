@@ -5,11 +5,14 @@
     text-align: center;
     color: white;
     position: relative;
+    font-weight: normal;
+    max-width: 360px;
 }
 @media screen and (max-width:320px) {
     .cover__subtitle {
         font-size: 0.875rem;
         line-height: 1rem;
         margin: 8% auto 0;
+        max-width: 288px;
     }
 }
