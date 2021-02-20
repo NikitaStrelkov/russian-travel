@@ -14,6 +14,9 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 .cover::before {
     content: '';
