@@ -6,20 +6,15 @@
     line-height: 1.8125rem; 
 } 
 @media screen and (max-width:768px) { 
-   
     .place__paragraph { 
         font-size: 1rem; 
         line-height: 1.625rem; 
     } 
 } 
 @media screen and (max-width:320px) { 
-
     .place__paragraph { 
         grid-column: 1/2; 
-        grid-row: 3/4; 
-        color: white; 
-        font-size: 1rem; 
-        line-height: 1.625rem; 
+        grid-row: 4/5;  
         margin: 0 5%; 
     } 
 } 

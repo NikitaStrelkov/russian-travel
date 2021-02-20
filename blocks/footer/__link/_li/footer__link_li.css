@@ -3,15 +3,14 @@
     margin: 0;
 }
 .footer__link_li:nth-child(2n) {
-    margin: 18px;
+    margin: 0 18px;
 }
 @media screen and (max-width:320px) {
     .footer__link_li {
         display: list-item;
     }
     .footer__link_li:nth-child(2n) {
-        margin-top: 10.32%;
-        margin-bottom: 10.32%;
+        margin: 32px 0;
         margin-left: 0;
     }
 }

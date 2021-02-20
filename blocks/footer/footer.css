@@ -1,10 +1,32 @@
 .footer {
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     display: flex;
-    margin-top: 92px;
+    padding-top: 92px;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
+@media screen and (max-width: 1140px){
+    .footer {
+      max-width: calc(100% - 48px*2);
+    }
+  }
  @media screen and (max-width:768px) {
      .footer {
-         margin-top: 88px;
+         padding-top: 88px;
+         max-width: calc(100% - 24px*2);
      }
  }
+ @media screen and (max-width:320px) {
+    .footer {
+        max-width: calc(100% - 16px*2);
+        padding-top: 64px;
+        flex-direction: column;
+    }
+}

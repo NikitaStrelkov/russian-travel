@@ -2,6 +2,13 @@
   flex-shrink: 0;
   display: grid;
   grid-row-gap: 92px;
+  padding-top: 56px;
+}
+
+@media screen and (max-width: 1140px) {
+  .content {
+    padding-top: 48px;
+  }
 }
 
 @media screen and (max-width: 984px) {
