@@ -1,0 +1,11 @@
+.place__item:nth-of-type(2n+1) { 
+    margin: 0 auto 26px; 
+} 
+.place__item:nth-of-type(2n+1):last-of-type {
+    margin: 0;
+}
+@media screen and (max-width:768px) { 
+    .place__item:nth-of-type(2n+1) { 
+        margin: 0 auto 25px; 
+    } 
+} 

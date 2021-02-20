@@ -1,15 +1,15 @@
-.footer__link_li {
+.footer__list {
     display: inline;
     margin: 0;
 }
-.footer__link_li:nth-child(2n) {
+.footer__list:nth-child(2n) {
     margin: 0 18px;
 }
 @media screen and (max-width:320px) {
-    .footer__link_li {
+    .footer__list {
         display: list-item;
     }
-    .footer__link_li:nth-child(2n) {
+    .footer__list:nth-child(2n) {
         margin: 32px 0;
         margin-left: 0;
     }
