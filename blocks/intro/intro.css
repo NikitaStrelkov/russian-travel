@@ -21,10 +21,21 @@
     .intro {
         max-width: 720px;
         padding: 0;
+        margin: 0 24px;
     }
 }
+
+@media screen and (max-width:750px) {
+    .intro {
+        margin: 0;
+        padding: 0 24px;
+    }
+}
+ 
 @media screen and (max-width:320px) {
     .intro {
         max-width: 288px;
+        padding: 0;
+        margin: 0 auto;
     }
 }    
