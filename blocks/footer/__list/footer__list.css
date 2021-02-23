@@ -3,7 +3,7 @@
     margin: 0;
 }
 .footer__list:nth-child(2n) {
-    margin: 0 18px;
+    margin: 0 15px;
 }
 @media screen and (max-width:320px) {
     .footer__list {
