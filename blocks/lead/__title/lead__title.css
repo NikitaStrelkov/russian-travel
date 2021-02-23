@@ -17,11 +17,11 @@
   .lead__title {
     font-size: 60px;
     line-height: 64px;
-    max-width: 720px;
+    margin: 0 120px;
   }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 330px){
   .lead__title {
     font-size: 40px;
     line-height: 44px;

@@ -2,18 +2,21 @@
     font-size: 30px;
     line-height: 36px;
     text-align: center;
-    margin: 32px 0 64px;
+    max-width: 492px;
+    margin: 32px auto 64px;
   }
   
   @media screen and (max-width: 1140px){
     .lead__subtitle {
-      margin: 32px 0 56px;
+      margin: 32px auto 56px;
+      
     }
   }
   
   @media screen and (max-width: 984px){
     .lead__subtitle {
-      margin: 32px 24px 56px;
+      margin: 32px auto 56px;
+      
     }
   }
   
@@ -21,7 +24,8 @@
     .lead__subtitle {
       font-size: 16px;
       line-height: 20px;
-      margin: 16px 16px 40px;
+      margin: 16px auto 40px;
+      max-width: 288px;
     }
   }
   

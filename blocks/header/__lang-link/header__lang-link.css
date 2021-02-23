@@ -8,9 +8,9 @@
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  /* Можно лучше: transition на ссылки */
   margin: 0 9px;
-  /* Можно лучше: использовать отрицательный отступ на родителе */
+  color: white;
+  text-decoration: none;
 }
 
 .header__lang-link:hover {
