@@ -3,7 +3,6 @@
     grid-row: 2/-1;
     width: 100%;
     object-fit: cover;
-    margin: 0;
     max-width: 460px;
 }
 @media screen and (max-width:1024px) {
@@ -18,10 +17,16 @@
         max-height: 340px;
     }
 }
-@media screen and (max-width:320px) {
+@media screen and (max-width:720px) {
     .place__image {
         grid-row: 3/4;
         max-width: 320px;
         min-height: 320px;
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width:360px) {
+    .place__image {
+        margin: 0 auto;
     }
 }

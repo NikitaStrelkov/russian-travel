@@ -16,16 +16,23 @@
       max-width: calc(100% - 48px*2);
     }
   }
- @media screen and (max-width:768px) {
-     .footer {
+
+@media screen and (max-width:768px) {
+    .footer {
          padding-top: 88px;
          max-width: calc(100% - 24px*2);
      }
  }
+
+@media screen and (max-width:670px) {
+    .footer {
+        flex-direction: column;
+        padding-top: 64px;
+    }
+}
+
  @media screen and (max-width:320px) {
     .footer {
         max-width: calc(100% - 16px*2);
-        padding-top: 64px;
-        flex-direction: column;
     }
 }

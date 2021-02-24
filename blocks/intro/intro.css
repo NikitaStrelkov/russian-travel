@@ -24,14 +24,14 @@
     }
 }
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:720px) {
     .intro {
         margin: 0;
         padding: 0 24px;
     }
 }
  
-@media screen and (max-width:320px) {
+@media screen and (max-width:568px) {
     .intro {
         max-width: 288px;
         padding: 0;

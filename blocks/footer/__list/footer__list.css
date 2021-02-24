@@ -1,16 +1,12 @@
 .footer__list {
-    display: inline;
-    margin: 0;
-}
-.footer__list:nth-child(2n) {
-    margin: 0 15px;
-}
-@media screen and (max-width:320px) {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+  }
+  
+  @media screen and (max-width: 680px){
     .footer__list {
-        display: list-item;
+      flex-direction: column;
     }
-    .footer__list:nth-child(2n) {
-        margin: 32px 0;
-        margin-left: 0;
-    }
-}
+  }

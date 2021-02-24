@@ -5,17 +5,4 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    max-width: calc(100% - 100px*2);
-  }
-  @media screen and (max-width: 1140px){
-    .lead {
-      max-width: calc(100% - 48px*2);
-    }
-  }
-  
-  @media screen and (max-width: 984px){
-    .lead {
-      max-width: 100%;
-    }
-  }
-  
+}

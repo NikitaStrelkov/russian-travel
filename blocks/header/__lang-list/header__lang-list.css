@@ -7,11 +7,11 @@
 
 @media screen and (max-width:1024px) {
   .header__lang-list {
-    margin-top: 16px;
+    margin-top: 14px;
   }
 }
 @media screen and (max-width:320px) {
   .header__lang-list {
-    margin-top: 14px;
+    margin-top: 12px;
   }
 }
