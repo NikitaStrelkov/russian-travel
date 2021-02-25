@@ -17,12 +17,12 @@
         max-height: 340px;
     }
 }
-@media screen and (max-width:720px) {
+@media screen and (max-width:746px) {
     .place__image {
         grid-row: 3/4;
         max-width: 320px;
         min-height: 320px;
-        margin-left: 20px;
+        margin-left: 16px;
     }
 }
 @media screen and (max-width:360px) {

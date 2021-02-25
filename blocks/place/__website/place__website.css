@@ -6,7 +6,7 @@
     
     text-align: start;
 }
-@media screen and (max-width:720px) {
+@media screen and (max-width:746px) {
     .place__website {
         grid-column: 1/2;
         grid-row: 2/3;

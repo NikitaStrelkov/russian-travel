@@ -18,7 +18,7 @@
         padding-right: 10px;
     }
 }
-@media screen and (max-width:720px) {
+@media screen and (max-width:746px) {
     .place__title {
         font-size: 2rem;
         line-height: 2.1875rem;
