@@ -1,6 +1,6 @@
 .footer__list-link {
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 1rem;
+    line-height: 1.125rem;
     color: #fff;
     text-decoration: none;
     -webkit-transition: 0.3s;
@@ -18,8 +18,8 @@
   
   @media screen and (max-width: 680px){
     .footer__list-link {
-      font-size: 24px;
-      line-height: 24px;
+      font-size: 1.5rem;
+      line-height: 1.5rem;
       display: block;
       margin: 0;
       margin-bottom: 32px;

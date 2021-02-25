@@ -9,7 +9,4 @@
     .place__item { 
         margin: 25px auto 0; 
     } 
-    .place__item:nth-of-type(2n+1) {
-        margin-top: 0;
-    }
 } 
