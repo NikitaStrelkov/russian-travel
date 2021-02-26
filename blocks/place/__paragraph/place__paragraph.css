@@ -6,19 +6,22 @@
     line-height: 1.8125rem;
     max-width: 484px;
 } 
-@media screen and (max-width:768px) { 
-    .place__paragraph { 
-        font-size: 1rem;
-        line-height: 1.625rem;
-    } 
-} 
+
 @media screen and (max-width:746px) { 
     .place__paragraph { 
+        max-width: 100%;
         grid-column: 1/2;
         grid-row: 4/5;
         margin: 0 16px;
     } 
 } 
+
+@media screen and (max-width:425px) { 
+    .place__paragraph{
+    font-size: 1rem;
+    line-height: 1.625rem;
+    }
+}
 @media screen and (max-width:320px) { 
     .place__paragraph { 
         margin: 0 5%;

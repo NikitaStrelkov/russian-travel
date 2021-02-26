@@ -4,6 +4,8 @@
     align-self: end;
     color: white;
     text-align: start;
+    display: grid;
+    row-gap: 12px;
 }
 @media screen and (max-width:746px) {
     .place__website {

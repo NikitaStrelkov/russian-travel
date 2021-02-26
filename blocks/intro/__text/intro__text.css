@@ -15,7 +15,7 @@
 
 @media screen and (max-width:750px) {
     .intro__text {
-        max-width: 393px;
+        max-width: 100%;
     }
 }
 
